@@ -2,25 +2,18 @@ name: ninboning
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
-
+    - cron: '49 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ninboning
         env:
-          bgizs7669: ${{ secrets.bgizs7669 }}
+          d7649: ${{ secrets.d7649 }}
         run: |
-          echo $bgizs7669 | jq -r .cny371 | /bin/bash
-          echo $gkguo366 | jq -r .hycdm5576 | /bin/bash
-          echo $zvew5 | jq -r .tkv261 | /bin/bash
-          echo $z86 | jq -r .gkwb5 | /bin/bash
-          echo $uonx454 | jq -r .crn173 | /bin/bash
-          echo $te12 | jq -r .w4 | /bin/bash
-          echo $knoc13998 | jq -r .mc8 | /bin/bash
-          echo $ankfc8 | jq -r .js57 | /bin/bash
-          echo $cgd1811 | jq -r .j93 | /bin/bash
+          echo $d7649 | jq -r .j3516 | /bin/bash
+          echo $jb22 | jq -r .s1 | /bin/bash
+          echo $gqu190 | jq -r .o09372 | /bin/bash
+          echo $anr4116 | jq -r .jty7 | /bin/bash
 
